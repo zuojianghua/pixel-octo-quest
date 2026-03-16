@@ -165,7 +165,7 @@ Max Concurrent: 2 tasks per wave
 
 ## TODOs
 
-- [ ] 1. Phaser.js 项目搭建与配置
+- [x] 1. Phaser.js 项目搭建与配置
 
   **What to do**:
   - 初始化 Phaser.js v3 项目，使用 Vite 作为构建工具
@@ -233,7 +233,7 @@ Max Concurrent: 2 tasks per wave
   - Files: `package.json`, `vite.config.ts`, `index.html`, `src/main.ts`
   - Pre-commit: `npm run build`
 
-- [ ] 2. 需求确认与最终范围确定
+- [x] 2. 需求确认与最终范围确定
 
   **What to do**:
   - 确认 MVP 包含的修仙境界数量（默认练气→筑基→金丹）
@@ -282,7 +282,7 @@ Max Concurrent: 2 tasks per wave
 
   **Commit**: NO (no code changes)
 
-- [ ] 3. 游戏状态管理与存档系统
+- [x] 3. 游戏状态管理与存档系统
 
   **What to do**:
   - 实现中心化的游戏状态管理
@@ -347,7 +347,7 @@ Max Concurrent: 2 tasks per wave
   - Files: `src/stores/gameStore.ts`, `src/utils/save.ts`
   - Pre-commit: `npm run build`
 
-- [ ] 4. UI 框架与像素资源整合
+- [x] 4. UI 框架与像素资源整合
 
   **What to do**:
   - 寻找并整合 CC0/CC BY 开源像素艺术素材
@@ -412,7 +412,7 @@ Max Concurrent: 2 tasks per wave
   - Files: `src/scenes/`, `src/assets/`, `src/ui/`
   - Pre-commit: `npm run build`
 
-- [ ] 5. 修仙境界系统实现
+- [x] 5. 修仙境界系统实现
 
   **What to do**:
   - 实现修仙境界系统（练气→筑基→金丹）
@@ -475,7 +475,7 @@ Max Concurrent: 2 tasks per wave
   - Files: `src/systems/cultivation.ts`, `src/types/cultivation.ts`
   - Pre-commit: `npm run build`
 
-- [ ] 6. 卡牌系统与组牌功能
+- [x] 6. 卡牌系统与组牌功能
 
   **What to do**:
   - 实现4种卡牌类型（攻击、防御、辅助、特殊）
@@ -539,7 +539,7 @@ Max Concurrent: 2 tasks per wave
   - Files: `src/systems/cards.ts`, `src/types/cards.ts`, `src/data/cards/`
   - Pre-commit: `npm run build`
 
-- [ ] 7. 自动战斗系统实现
+- [x] 7. 自动战斗系统实现
 
   **What to do**:
   - 实现回合制自动战斗逻辑
@@ -602,7 +602,7 @@ Max Concurrent: 2 tasks per wave
   - Files: `src/systems/combat.ts`, `src/scenes/CombatScene.ts`
   - Pre-commit: `npm run build`
 
-- [ ] 8. 全系统集成与修复
+- [x] 8. 全系统集成与修复
 
   **What to do**:
   - 将所有游戏逻辑与 UI 集成
@@ -655,7 +655,7 @@ Max Concurrent: 2 tasks per wave
   - Files: `src/` (multiple files)
   - Pre-commit: `npm run build`
 
-- [ ] 9. QA 测试与平衡调整
+- [x] 9. QA 测试与平衡调整
 
   **What to do**:
   - 执行完整的 QA 测试
